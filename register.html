@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <!--LOGO-->
+            <a href="index.html"><img class="navbar-brand" src="img/logo.png" alt="logo"></a>            
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--COLLAPSE NAVBAR-->
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <!--SEARCH FORM-->
+                <form class="form-inline my-2 my-lg-0 search">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <!--NAViGATION-->
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Form register-->
+    <div class="container-fuild mt-5">
+        <div class="row justify-content-center">
+            <div class="col-4 text-center mt-5">
+                <div class="box">
+                    <h2>Join with us</h2>
+
+                    <div class="divider-form"></div>
+
+                    <form role="form">
+                        <div class="form-group text-left">
+                            <label for="exampleInputEmail">Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter Your Name">
+                        </div>
+                    </form>
+
+                    <div class="divider-form"></div>
+
+                    <form role="form">
+                        <div class="form-group text-left">
+                            <label for="exampleInputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter Email">
+                        </div>
+                    </form>
+
+                    <div class="divider-form"></div>
+
+					<div class="form-group text-left">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+
+                    <div class="divider-form"></div>
+
+                    <form role="form">
+                        <div class="form-group text-left">
+                            <label for="exampleInputEmail">Confirm Password</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Confirm Your Password">
+                        </div>
+                    </form>
+
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">Register Account</button>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5"></div>
+    </div>
+    <!--FOOTER-->
+    <div class="container-fuild" id="foot">
+        <footer class="text-center">
+            <div class="row service-info">
+                <div class="col-md-3 ml-auto border-right border-secondary">
+                    <h5 class="footer-title">Navigate</h5>
+                    <ul>
+                        <li>
+                            <a href="design.html">Design pictures </a>
+                        </li>
+                        <li>
+                            <a href="products.html">Model</a>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" href="#aboutUs">Help</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 border-right border-secondary">
+                    <h5 class="footer-title">Company</h5>
+                    <ul>
+                        <li>
+                            <a data-toggle="modal" href="#aboutUs">About us </a>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" href="#aboutUs">Work with us </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mr-auto">
+                    <h5 class="footer-title">Contact</h5>
+                    <p>Weekdays 9am - 8pm ET</p>
+                    <p>Weekend 9am - 5pm ET</p>
+                    <p>(866) 440-8237</p>
+                    <button type="button" class="btn btn-primary" id="btn_email">Email us
+                    </button>
+                </div>
+            </div>
+            <div class="row icon-fanpage">
+                <div class="col-md-5 mx-auto">
+                    <span class="fa-stack fa-lg">
+                        <a href="">
+                            <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                            <i class="fa fa-facebook-f fa-stack-1x " style="color: white"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <a href="">
+                            <i class="fa fa-circle fa-stack-2x icon-background2"></i>
+                            <i class="fa fa-twitter fa-stack-1x" style="color: white"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <a href="">
+                            <i class="fa fa-circle fa-stack-2x icon-background3"></i>
+                            <i class="fa fa-pinterest-p fa-stack-1x" style="color: white"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <a href="">
+                            <i class="fa fa-circle fa-stack-2x icon-background4"></i>
+                            <i class="fa fa-instagram fa-stack-1x" style="color: white"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="row icon-fanpage">
+                <div class="col-md-4 mx-auto"></div>
+                <div class="col-md-4 mx-auto">
+                    <p style="color: white;" id="copyright">Copyright2018 &copy; FramesVIP, Inc
+                    </p>
+                </div>
+                <div class="col-md-4 mx-auto text-right">
+                    <span class="fa-stack fa-sm">
+                        <a href="#top">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-arrow-up fa-stack-1x " style="color: white"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+     <!--MODAL BOX PRODUCT DETAIL-->
+     <div class="modal fade" id="aboutUs" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">About Us</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            Hà Tấn Linh MSSV:1512284
+                        </div>
+                        <div class="col-6">
+                            Cao Bá Đông MSSV:1512113
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>     
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

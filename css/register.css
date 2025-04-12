@@ -1,0 +1,29 @@
+.box {
+	background-color: #fff;
+	padding: 25px 40px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto';
+}
+
+.divider-form {
+    border: 1px solid #EBEFF1;
+    margin: 15px -40px 10px;
+}
+
+label {
+	text-transform: uppercase;
+	color: #bdc7d4;
+}
+
+#form-control {
+    height: 40px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #8b9eb6;
+    padding: 0px;
+}
+
+#form-control:focus {
+    box-shadow: none;
+}
